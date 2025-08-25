@@ -1,15 +1,12 @@
 ---
-title: Treehouse
-subtitle: Website Design
+title: Terraform
+subtitle: Infrastructure as Code Automation
 layout: default
 modal-id: 4
-date: 2014-07-15
 img: treehouse.png
 thumbnail: treehouse-thumbnail.png
-alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+alt: Terraform project image
+project-date: March 2025
+category: DevOps / Cloud Automation
+description: Automate the provisioning and management of cloud infrastructure using Terraform, enabling repeatable, version-controlled, and scalable deployments.
 ---
