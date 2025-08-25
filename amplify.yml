@@ -1,9 +1,6 @@
 version: 1
 frontend:
   phases:
-    preBuild:
-      commands:
-        - bundle install
     build:
       commands:
         - jekyll build
@@ -12,5 +9,4 @@ frontend:
     files:
       - '**/*'
   cache:
-    paths:
-      - vendor/**/*
+    paths: []
