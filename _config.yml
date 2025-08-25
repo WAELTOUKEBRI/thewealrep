@@ -9,6 +9,10 @@ exclude:
   - "*.sass"
   - "assets/*.css"
   - "_layouts/*.css"
+  # Add this to your existing _config.yml
+exclude:
+  - "*.css"
+  - "css/*.css"
 
 social:
   - title: linkedin
