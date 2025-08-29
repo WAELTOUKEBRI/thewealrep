@@ -1,6 +1,10 @@
 version: 1
 frontend:
   phases:
+    preBuild:
+      commands:
+        - gem install bundler
+        - bundle install
     build:
       commands:
         - jekyll build
@@ -8,5 +12,4 @@ frontend:
     baseDirectory: _site
     files:
       - '**/*'
-  cache:
-    paths: []
+
